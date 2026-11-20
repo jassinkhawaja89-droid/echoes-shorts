@@ -3,7 +3,7 @@
 Channel: **Echoes of Wisdom** (@eow1.0), YouTube channel id `UC4jiiGX3DXTIAK3p0x67O5Q`, connected in vidIQ.
 Look: flat 2D bean-head cartoon cards in a toon-shaded 3D world with ink outlines (see `examples/`).
 Narration: Kokoro voice `bm_lewis` (British male), made by `tools/tts.py`. English.
-Output: 1080x1920, 30 fps, 20-35 s. Music bed and SFX at 50 % of the voice level (`tools/mix.py`).
+Output: 1080x1920, 30 fps, **max 30 s** (user requirement, target 25-29.5 s). Music bed and SFX at 50 % of the voice level (`tools/mix.py`).
 
 ## Daily steps
 
@@ -13,7 +13,7 @@ Output: 1080x1920, 30 fps, 20-35 s. Music bed and SFX at 50 % of the voice level
    `vidiq_outliers` or `vidiq_trending_videos` for history / "true story" shorts. Skip anything listed in `topics.md`.
    Pick one surprising, verifiable story with a physical cause-and-effect and a twist in the last line.
    Verify the key facts with a web search. No real living people, nothing graphic, nothing political. Not aimed at kids.
-3. **Script.** English, 75-95 words, one sentence (or short phrase) per line in `script.txt`:
+3. **Script.** English, 60-70 words (Lewis at speed 0.95 speaks ~2.6 words/s incl. pauses; the voice must end by 29 s), one sentence (or short phrase) per line in `script.txt`:
    hook (paradox as fact) -> setting -> 2-4 escalating beats -> pivot -> short ironic twist as the final words.
    Numbers written as words.
 4. **Voice.** `python3 tts.py script.txt` -> `voice.wav` and `work/phrases.json` (exact start/end of every line, frames = seconds x 30).
@@ -28,6 +28,8 @@ Output: 1080x1920, 30 fps, 20-35 s. Music bed and SFX at 50 % of the voice level
    `python3 mix.py voice.wav music.wav sfx.wav` (must print music -6.0 dB vs voice, sfx at or below).
 8. **Render.** Two processes in parallel: `node render.mjs frames "0-<N/2>"` and `node render.mjs frames "<N/2+1>-<N-1>"`, then `bash finish.sh "<Title>"`.
    Check `out/qa_sheet.jpg`: no frozen spans, no black frames.
+   Check duration with ffprobe. If it is over 30 s: `python3 tools/tighten.py out/<Title>.mp4 voice.wav out/<Title>_30.mp4 29.5`
+   (shrinks voice pauses, then a pitch-safe speed-up; keep the speed-up below x1.1, otherwise shorten the script instead).
 9. **Upload to vidIQ.** (GitHub releases are blocked for this session type.) Commit the MP4 to the orphan branch `videos`
    as `videos/<YYYY-MM-DD>_<Slug>.mp4`: `git fetch origin videos && git worktree add /tmp/v videos`, copy, commit, `git -c push.negotiate=true push origin videos`.
    The repo is public, so pass `https://raw.githubusercontent.com/jassinkhawaja89-droid/echoes-shorts/videos/videos/<file>.mp4`
