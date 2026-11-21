@@ -321,3 +321,66 @@ export const crateLabel = () => {
   g.fillStyle = '#2a1e14'; g.font = 'bold 86px Georgia, serif'; g.textAlign = 'center'; g.fillText('500', 128, 160);
   return c;
 };
+
+// ---------- Zanzibar 1896 ----------
+export const sand = () => {
+  const [c, g] = canvas(512, 512);
+  g.fillStyle = '#e6cf9c'; g.fillRect(0, 0, 512, 512);
+  speck(g, 512, 512, 500, ['#d8bf88', '#f0dcae', '#cdb07a'], 8, 41);
+  return c;
+};
+export const sea = () => {
+  const [c, g] = canvas(512, 512);
+  g.fillStyle = '#2f9ab8'; g.fillRect(0, 0, 512, 512);
+  speck(g, 512, 512, 160, ['#2a8aa8', '#38a8c4'], 30, 43);
+  g.strokeStyle = '#8fdcec'; g.lineWidth = 6; g.lineCap = 'round';
+  for (let i = 0; i < 26; i++) {
+    const x = R(i * 3.3) * 512, y = R(i * 5.1) * 512, w = 30 + R(i) * 50;
+    g.globalAlpha = 0.85; g.beginPath(); g.moveTo(x - w, y); g.quadraticCurveTo(x, y - 9, x + w, y); g.stroke();
+  }
+  g.globalAlpha = 1; return c;
+};
+export const palaceWall = (col = '#f4efe2', rows = 3, cols = 2, shut = '#3a7a6a') => { // whitewashed coral-stone with arched shuttered windows
+  const [c, g] = canvas(512, 512);
+  g.fillStyle = col; g.fillRect(0, 0, 512, 512);
+  speck(g, 512, 512, 140, ['#e6e0d0', '#fbf8ee', '#ddd4c0'], 10, 47);
+  const cw = 512 / cols, rh = 512 / rows;
+  for (let i = 0; i < cols; i++) for (let j = 0; j < rows; j++) {
+    const x = i * cw + cw * 0.3, y = j * rh + rh * 0.22, w = cw * 0.4, h = rh * 0.6;
+    g.fillStyle = '#241726'; g.beginPath(); g.moveTo(x - 6, y + h + 6); g.lineTo(x - 6, y + w / 2); g.arc(x + w / 2, y + w / 2, w / 2 + 6, Math.PI, 0); g.lineTo(x + w + 6, y + h + 6); g.closePath(); g.fill();
+    g.fillStyle = shut; g.beginPath(); g.moveTo(x, y + h); g.lineTo(x, y + w / 2); g.arc(x + w / 2, y + w / 2, w / 2, Math.PI, 0); g.lineTo(x + w, y + h); g.closePath(); g.fill();
+    g.fillStyle = '#2a5a4e'; for (let k = 1; k < 6; k++) g.fillRect(x + 4, y + w / 2 + k * (h - w / 2) / 6, w - 8, 3);
+    g.fillStyle = '#241726'; g.fillRect(x + w / 2 - 2, y, 4, h);
+    g.fillStyle = '#d8ccb0'; g.fillRect(x - 12, y + h + 6, w + 24, 10);
+  }
+  g.fillStyle = '#d8ccb0'; for (let j = 1; j < rows; j++) g.fillRect(0, j * rh - 6, 512, 10);
+  return c;
+};
+export const clockFace = (hour = 8, min = 55) => {
+  const [c, g] = canvas(256, 256);
+  g.fillStyle = '#f4efe2'; g.fillRect(0, 0, 256, 256);
+  g.fillStyle = '#241726'; g.beginPath(); g.arc(128, 128, 118, 0, 6.3); g.fill();
+  g.fillStyle = '#fffaf0'; g.beginPath(); g.arc(128, 128, 108, 0, 6.3); g.fill();
+  g.strokeStyle = '#241726'; g.lineCap = 'round';
+  for (let i = 0; i < 12; i++) { const a = (i / 12) * Math.PI * 2; g.lineWidth = i % 3 ? 5 : 10; g.beginPath(); g.moveTo(128 + Math.sin(a) * 84, 128 - Math.cos(a) * 84); g.lineTo(128 + Math.sin(a) * 100, 128 - Math.cos(a) * 100); g.stroke(); }
+  const mh = (min / 60) * Math.PI * 2, hh = (((hour % 12) + min / 60) / 12) * Math.PI * 2;
+  g.lineWidth = 12; g.beginPath(); g.moveTo(128, 128); g.lineTo(128 + Math.sin(hh) * 52, 128 - Math.cos(hh) * 52); g.stroke();
+  g.lineWidth = 7; g.strokeStyle = '#c8243a'; g.beginPath(); g.moveTo(128, 128); g.lineTo(128 + Math.sin(mh) * 86, 128 - Math.cos(mh) * 86); g.stroke();
+  g.fillStyle = '#241726'; g.beginPath(); g.arc(128, 128, 10, 0, 6.3); g.fill();
+  return c;
+};
+export const hull = (col = '#26232a', band = '#d8b24a') => {
+  const [c, g] = canvas(512, 256);
+  g.fillStyle = col; g.fillRect(0, 0, 512, 256);
+  g.fillStyle = band; g.fillRect(0, 22, 512, 10);
+  g.fillStyle = '#9a2a2a'; g.fillRect(0, 210, 512, 46);
+  g.fillStyle = '#141218'; for (let x = 20; x < 512; x += 64) { g.beginPath(); g.arc(x, 70, 9, 0, 6.3); g.fill(); }
+  return c;
+};
+export const flagRed = () => { const [c, g] = canvas(128, 64); g.fillStyle = '#c8202a'; g.fillRect(0, 0, 128, 64); g.fillStyle = '#a81820'; g.fillRect(0, 56, 128, 8); return c; };
+export const rubble = () => {
+  const [c, g] = canvas(256, 256);
+  g.fillStyle = '#b8ae98'; g.fillRect(0, 0, 256, 256);
+  speck(g, 256, 256, 160, ['#8a8070', '#ddd4c0', '#6a6258'], 14, 53);
+  return c;
+};

@@ -447,6 +447,21 @@ const hatOn = (p     , o        , hp      , H      , cx        , hc        , lig
     p.ell(tx, ty, cw, 0.05 * HH, shade(col, 1.05), ow, 0, 360, deg);
     const [bx, by] = R([[cx, yb + 1 * u]])[0];
     p.ell(bx, by, 0.62 * W, 0.07 * HH, shade(col, 0.92), ow, 0, 360, deg);
+  } else if (o.hat === "turban") { // wrapped turban, sits low over the forehead
+    const col = o.cap || "#f4efe4", dk = mul(col, SH_FELT), yb = crown + 0.3 * HH, deg = (a * 180) / Math.PI;
+    const cw = 0.56 * W, ch = 0.5 * HH;
+    const dome = R(ellPts(cx, yb, cw, ch, 180, 360, 0, 32).concat(ellPts(cx, yb, cw, 0.07 * HH, 0, 180, 0, 12)));
+    p.shadedFill(dome, col, dk, light, cw, 0.4);
+    p.clip(dome, () => { for (let k = 0; k < 4; k++) { const y = yb - 0.06 * HH - k * 0.1 * HH; p.stroke(R([[cx - cw, y + 0.06 * HH], [cx, y - 0.03 * HH], [cx + cw, y + 0.06 * HH]]), 1.6 * u, dk); } });
+    p.poly(dome, null, ow);
+    if (o.jewel) { const [jx, jy] = R([[cx, yb - 0.16 * HH]])[0]; p.ell(jx, jy, 6 * u, 7 * u, o.jewel, 2 * u, 0, 360, deg); }
+  } else if (o.hat === "bicorne") { // naval cocked hat worn athwart, low on the head
+    const col = "#1c1a24", yb = crown + 0.3 * HH, deg = (a * 180) / Math.PI, cw = 0.66 * W;
+    const body = R([[cx - cw, yb + 0.02 * HH], ...ellPts(cx, yb + 0.02 * HH, cw, 0.42 * HH, 180, 360, 0, 28).slice(1), [cx + cw, yb + 0.02 * HH], [cx + 0.5 * cw, yb + 0.07 * HH], [cx - 0.5 * cw, yb + 0.07 * HH]]);
+    p.shadedFill(body, col, "#0e0d12", light, cw, 0.4);
+    p.clip(body, () => p.band(R(ellPts(cx, yb + 0.02 * HH, cw - 2 * u, 0.42 * HH - 2 * u, 185, 355, 0, 20)), "#d8b24a", 3.5 * u, 0.8 * u));
+    p.poly(body, null, ow);
+    const [kx, ky] = R([[cx, yb - 0.2 * HH]])[0]; p.ell(kx, ky, 7 * u, 9 * u, "#d8b24a", 2 * u, 0, 360, deg);
   } else if (o.hat === "bonnet") {
     const [bx, by] = R([[cx + (side ? 6 * u : 0), crown + 0.16 * HH]])[0];
     p.arc(bx, by, 0.5 * W, 0.2 * HH, 200, 340, 7 * u, BONNET_BRIM);
