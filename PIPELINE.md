@@ -10,7 +10,7 @@ Output: 1080x1920, 30 fps, **max 30 s** (user requirement, target 25-29.5 s). Mu
 1. **Setup.** `bash tools/setup.sh ~/short` (copies the engine and tools, installs playwright, kokoro-onnx, starts a local server on :8790).
    If the `cartoon-audio-short` skill is available, follow its rules for motion, look check and audio levels.
 2. **Topic.** Use vidIQ to find what works: `vidiq_channel_videos` / `vidiq_channel_analytics` for the channel above, plus
-   `vidiq_outliers` or `vidiq_trending_videos` for history / "true story" shorts. Skip anything listed in `topics.md`.
+   `vidiq_outliers` or `vidiq_trending_videos` for history / "true story" shorts. Skip anything listed in `topics.md` AND anything already on the channel (check `vidiq_channel_videos` channelId UC4jiiGX3DXTIAK3p0x67O5Q videoFormat short). Prefer the next unused idea from the backlog in `topics.md` unless vidIQ shows a clearly stronger trend.
    Pick one surprising, verifiable story with a physical cause-and-effect and a twist in the last line.
    Verify the key facts with a web search. No real living people, nothing graphic, nothing political. Not aimed at kids.
 3. **Script.** English, 60-70 words (Lewis at speed 0.95 speaks ~2.6 words/s incl. pauses; the voice must end by 29 s), one sentence (or short phrase) per line in `script.txt`:
