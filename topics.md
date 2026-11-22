@@ -5,6 +5,8 @@
 2026-11-20 | The Money Was Real | Alves Reis banknote fraud 1925
 2026-11-21 | They fought for 38 minutes and paid for the ammo | Anglo-Zanzibar War 1896
 2026-11-21 | When a pig caused a military standoff | Pig War, San Juan Island 1859
+2026-11-22 | The bear who wrestled his way into the army #history #shorts | Wojtek the soldier bear, Polish II Corps 1942-1944
+2026-11-22 | 1518: When dancing became a death sentence #history #shorts | Dancing Plague, Strasbourg 1518
 
 ## Already on the channel (uploaded by Jassin, do not repeat)
 - The Great Emu War, 1932 (i-mIX_MFNno)
@@ -17,6 +19,4 @@
 5. The London Beer Flood 1814: a giant vat burst and a wave of beer swept through St Giles.
 6. Hiroo Onoda: kept fighting World War II in the jungle until 1974 because nobody told him it was over.
 7. Lord Timothy Dexter: sold warming pans to the tropical West Indies and still made a fortune.
-8. Wojtek the bear: a brown bear enlisted as a private in the Polish army and carried artillery shells.
-9. The Dancing Plague of 1518: hundreds in Strasbourg danced for days and nobody knows why.
 10. The Kentucky Meat Shower 1876: chunks of meat fell from a clear sky over a farm.
