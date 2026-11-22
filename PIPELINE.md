@@ -36,6 +36,7 @@ Output: 1080x1920, 30 fps, **max 30 s** (user requirement, target 25-29.5 s). Mu
    to `vidiq_video_upload` (url) -> `uploadId` (status ready). Verified working on 2026-11-20.
    GitHub rejects files over 100 MB: if the MP4 is bigger, re-encode with `-crf 20 -maxrate 18M -bufsize 36M -c:a copy` first.
 10. **Metadata.** `vidiq_generate_titles` (type short, language en) -> pick the best scored title (<= 70 chars).
+    **Final title is ALL CAPS** (Jassin, 2026-11-22), only hashtags stay lowercase, e.g. `WHY THIS BEAR WAS ENLISTED AS A PRIVATE #history #ww2 #shorts`. Score first, then uppercase.
     Description: 2-3 sentences that tease the story, one line "True story from <year>." (or "Legend says..."), then `#shorts #history #truestory` + 2 topic tags.
     10-15 tags.
 11. **Draft + approval.** `vidiq_social_post_draft_create` with destination YOUTUBE, platformAccountId `UC4jiiGX3DXTIAK3p0x67O5Q`,
