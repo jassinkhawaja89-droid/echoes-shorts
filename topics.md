@@ -5,8 +5,8 @@
 2026-11-20 | The Money Was Real | Alves Reis banknote fraud 1925
 2026-11-21 | They fought for 38 minutes and paid for the ammo | Anglo-Zanzibar War 1896
 2026-11-21 | When a pig caused a military standoff | Pig War, San Juan Island 1859
-2026-11-22 | The bear who wrestled his way into the army #history #shorts | Wojtek the soldier bear, Polish II Corps 1942-1944
-2026-11-22 | 1518: When dancing became a death sentence #history #shorts | Dancing Plague, Strasbourg 1518
+2026-11-22 | Why this bear was enlisted as a private #history #ww2 #shorts | Wojtek the soldier bear, Polish II Corps 1942-1944
+2026-11-22 | They couldn't stop dancing: The 1518 mystery #history #facts #weird | Dancing Plague, Strasbourg 1518
 
 ## Already on the channel (uploaded by Jassin, do not repeat)
 - The Great Emu War, 1932 (i-mIX_MFNno)
