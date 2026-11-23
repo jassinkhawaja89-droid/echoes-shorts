@@ -7,6 +7,8 @@
 2026-11-21 | When a pig caused a military standoff | Pig War, San Juan Island 1859
 2026-11-22 | WHY THIS BEAR WAS ENLISTED AS A PRIVATE #history #ww2 #shorts | Wojtek the soldier bear, Polish II Corps 1942-1944
 2026-11-22 | THEY COULDN'T STOP DANCING: THE 1518 MYSTERY #history #facts #weird | Dancing Plague, Strasbourg 1518
+2026-11-23 | WHY THE RATS DIDN'T SHOW UP FOR THEIR TRIAL #history #facts #shorts | Rats of Autun trial, lawyer Chassenée, early 1500s
+2026-11-23 | WHY DID MEAT FALL FROM THE SKY? #history #mystery #shorts | Kentucky Meat Shower, Bath County 1876
 
 ## Already on the channel (uploaded by Jassin, do not repeat)
 - The Great Emu War, 1932 (i-mIX_MFNno)
@@ -19,4 +21,3 @@
 5. The London Beer Flood 1814: a giant vat burst and a wave of beer swept through St Giles.
 6. Hiroo Onoda: kept fighting World War II in the jungle until 1974 because nobody told him it was over.
 7. Lord Timothy Dexter: sold warming pans to the tropical West Indies and still made a fortune.
-10. The Kentucky Meat Shower 1876: chunks of meat fell from a clear sky over a farm.
