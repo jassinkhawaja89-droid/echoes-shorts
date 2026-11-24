@@ -44,4 +44,7 @@ Output: 1080x1920, 30 fps, **max 30 s** (user requirement, target 25-29.5 s). Mu
     privacyStatus `public`, categoryId 27, title, text (= description), tags, media = the uploadId.
     Send the user the MP4 (SendUserFile) plus title/description and ask for a "ja". Publish with `vidiq_social_post_publish`
     **only after the user approves**.
+11b. **YouTube settings (Jassin, 2026-11-24, required for views).** Every video: audience "No, it's not made for kids", NO paid promotion, "Altered or synthetic content: Yes" (AI-generated).
+    vidIQ cannot set these fields yet: set them in YouTube Studio with a browser tool if one is available, otherwise remind Jassin with the Studio link
+    `https://studio.youtube.com/video/<VIDEO_ID>/edit` for each video.
 12. **Log.** Append `YYYY-MM-DD | title | topic` to `topics.md`, commit and push.
