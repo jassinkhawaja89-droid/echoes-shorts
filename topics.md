@@ -9,6 +9,8 @@
 2026-11-22 | THEY COULDN'T STOP DANCING: THE 1518 MYSTERY #history #facts #weird | Dancing Plague, Strasbourg 1518
 2026-11-23 | WHY THE RATS DIDN'T SHOW UP FOR THEIR TRIAL #history #facts #shorts | Rats of Autun trial, lawyer Chassenée, early 1500s
 2026-11-23 | WHY DID MEAT FALL FROM THE SKY? #history #mystery #shorts | Kentucky Meat Shower, Bath County 1876
+2026-11-24 | Why this family never gave up their key #nakba #storytime | Keys of 1948: Nakba, Palestinian refugees keep their house keys (one-off special request)
+2026-11-24 | Why This Man Ate a Bicycle and a TV #bizarre #shorts | Michel Lotito (Monsieur Mangetout) ate a Cessna 150, 1978-1980
 
 ## Already on the channel (uploaded by Jassin, do not repeat)
 - The Great Emu War, 1932 (i-mIX_MFNno)
