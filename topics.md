@@ -11,6 +11,8 @@
 2026-11-23 | WHY DID MEAT FALL FROM THE SKY? #history #mystery #shorts | Kentucky Meat Shower, Bath County 1876
 2026-11-24 | Why this family never gave up their key #nakba #storytime | Keys of 1948: Nakba, Palestinian refugees keep their house keys (one-off special request)
 2026-11-24 | Why This Man Ate a Bicycle and a TV #bizarre #shorts | Michel Lotito (Monsieur Mangetout) ate a Cessna 150, 1978-1980
+2026-11-25 | THE BATTLE OF THE HATS: New York's Weirdest Riot 🎩 #shorts | Straw Hat Riot, New York 1922 (vidIQ outlier pick)
+2026-11-25 | WHY THIS COUNTRY ABOLISHED ITS ARMY FOREVER 🛡️ #shorts | Liechtenstein 1866: 80 soldiers went, 81 came back (legend), army abolished 1868 (vidIQ outlier pick)
 
 ## Already on the channel (uploaded by Jassin, do not repeat)
 - The Great Emu War, 1932 (i-mIX_MFNno)
