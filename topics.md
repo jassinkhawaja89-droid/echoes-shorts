@@ -13,6 +13,8 @@
 2026-11-24 | Why This Man Ate a Bicycle and a TV #bizarre #shorts | Michel Lotito (Monsieur Mangetout) ate a Cessna 150, 1978-1980
 2026-11-25 | THE BATTLE OF THE HATS: New York's Weirdest Riot 🎩 #shorts | Straw Hat Riot, New York 1922 (vidIQ outlier pick)
 2026-11-25 | WHY THIS COUNTRY ABOLISHED ITS ARMY FOREVER 🛡️ #shorts | Liechtenstein 1866: 80 soldiers went, 81 came back (legend), army abolished 1868 (vidIQ outlier pick)
+2026-11-26 | Why They Thought Blowing Up A Whale Was A Good Idea #history #shorts | Exploding whale, Florence, Oregon 1970 (vidIQ outlier pick)
+2026-11-26 | Why the Pope Saved Coffee from the Devil #historyfacts #shorts | Legend: Pope Clement VIII 'baptized' coffee, around 1600 (vidIQ outlier pick)
 
 ## Already on the channel (uploaded by Jassin, do not repeat)
 - The Great Emu War, 1932 (i-mIX_MFNno)
