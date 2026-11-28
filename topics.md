@@ -17,6 +17,8 @@
 2026-11-26 | Why the Pope Saved Coffee from the Devil #historyfacts #shorts | Legend: Pope Clement VIII 'baptized' coffee, around 1600 (vidIQ outlier pick)
 2026-11-27 | What happened when she took the car in 1888 #history #mystery | Bertha Benz's first long-distance drive, Mannheim-Pforzheim 1888 (vidIQ trending pick)
 2026-11-27 | When laughter became a disaster #history #mystery | Tanganyika laughter epidemic, Kashasha 1962 (vidIQ outlier pick)
+2026-11-28 | He raised a seal in his bathtub and it started talking #crazy #storytime #animals | Hoover the talking seal, Maine 1971 / New England Aquarium Boston (vidIQ outlier pick)
+2026-11-28 | Why this girl was mailed like a package #history #curious #truestory | May Pierstorff mailed by parcel post, Grangeville-Lewiston, Idaho 1914 (vidIQ outlier pick)
 
 ## Already on the channel (uploaded by Jassin, do not repeat)
 - The Great Emu War, 1932 (i-mIX_MFNno)
